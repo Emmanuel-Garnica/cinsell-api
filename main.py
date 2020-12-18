@@ -10,7 +10,7 @@ from fastapi.middleware.cors import CORSMiddleware
 origins = [
     "http://localhost.tiangolo.com", "https://localhost.tiangolo.com",
     "http://localhost", "http://localhost:8080","http://localhost:8080/perfil",
-    "https://cinsell-app.herokuapp.com/"
+    "https://cinsell-app.herokuapp.com", "https://cinsell-app.herokuapp.com/login", "https://cinsell-app.herokuapp.com/perfil"
 ]
 api.add_middleware(
     CORSMiddleware, allow_origins=origins,
